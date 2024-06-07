@@ -22,7 +22,7 @@ const ViewAlbum = () => {
                 </div>
             </div>
         </div>
-     </div>   
+       
   )
 }
 
