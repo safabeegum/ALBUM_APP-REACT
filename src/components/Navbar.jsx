@@ -13,16 +13,16 @@ const Navbar = () => {
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <Link class="nav-link" to="#">ADD</Link>
+          <Link class="nav-link" to="/">ADD</Link>
         </li>
         <li class="nav-item">
-          <Link class="nav-link" to="#">SEARCH</Link>
+          <Link class="nav-link" to="/search">SEARCH</Link>
         </li>
         <li class="nav-item">
-          <Link class="nav-link" to="#">DELETE</Link>
+          <Link class="nav-link" to="/delete">DELETE</Link>
         </li>
         <li class="nav-item">
-          <Link class="nav-link" to="#">VIEW</Link>
+          <Link class="nav-link" to="/viewall">VIEW</Link>
         </li>
       </ul>
     </div>
@@ -32,4 +32,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbarf
+export default Navbar
